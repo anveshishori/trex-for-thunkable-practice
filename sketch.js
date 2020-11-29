@@ -78,7 +78,7 @@ function draw() {
   
   background("white");
   //displaying score
-  text("Score: "+ score, 500,50);
+  text("Score: "+ score, width - 100,height - 500);
   
   console.log("this is ",gameState)
   
